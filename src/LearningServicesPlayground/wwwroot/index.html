@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>.NET Learning Services Chat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="chat-shell">
+    <h1>.NET Learning Services Playground</h1>
+    <p>Pick a service and send a message.</p>
+
+    <label for="serviceSelect">Service</label>
+    <select id="serviceSelect"></select>
+
+    <div id="messages" class="messages"></div>
+
+    <form id="chatForm">
+      <input id="messageInput" type="text" placeholder="Type your message..." required />
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
